@@ -23,6 +23,8 @@ jobs:
           "8000": "80"
         envs: 'TestingDomain TEST_PREFERRED_CHAIN TEST_ACME_Server INPUT_*'
         sync: sshfs
+        release: "10.0"
+        arch: "aarch64"
         prepare: |
           pkg_add curl
         run: |
