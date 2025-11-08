@@ -24,7 +24,6 @@ jobs:
         envs: 'TestingDomain TEST_PREFERRED_CHAIN TEST_ACME_Server INPUT_*'
         sync: no
         release: "9.3"
-        arch: "aarch64"
         prepare: |
           pkg_add curl
         run: |
