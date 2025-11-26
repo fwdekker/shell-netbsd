@@ -23,7 +23,7 @@ jobs:
           "8000": "80"
         envs: 'TestingDomain TEST_PREFERRED_CHAIN TEST_ACME_Server INPUT_*'
         sync: no
-        release: "9.3"
+        release: "10.1"
         prepare: |
           pkg_add curl
         run: |
